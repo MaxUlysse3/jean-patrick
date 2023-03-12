@@ -1,4 +1,5 @@
 //! A crate to build neural networks
+extern crate rulinalg;
 
-/// Module containing simple 2 dimensional matrices
-pub mod matrix;
+/// The module containing networks.
+pub mod network;

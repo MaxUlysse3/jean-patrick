@@ -1,6 +1,7 @@
-use jean_patrick::matrix::Matrix;
+use jean_patrick::{
+    network::Network,
+};
 
 fn main() {
-    let m = Matrix::<i32>::new(3, 4, 0);
-
+    let mut n = Network::new(256, &[16, 16], 10);
 }
