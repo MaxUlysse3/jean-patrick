@@ -11,7 +11,6 @@ use layer::Layer;
 #[derive(Debug)]
 pub struct Network {
     input: Layer,
-    output: *const Layer,
 }
 
 /// # Constructors for [`Network`].
@@ -38,7 +37,6 @@ impl Network {
 
         Self {
             input,
-            output: last as *const Layer,
         }
     }
 }
